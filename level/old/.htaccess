@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/lushina.com.ua/webstat"
+AuthUserFile /var/www/rroot/data/etc/23462902.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
