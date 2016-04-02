@@ -1,3 +1,4 @@
+AddDefaultCharset utf-8 
 #disable displaying errors to visitors
 php_flag display_startup_errors off
 php_flag display_errors off
