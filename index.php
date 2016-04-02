@@ -40,7 +40,9 @@
 		<?php //хлебные крошки
 			//require_once 'blocks/breadcrumbs.php';
 		?>
-	
+<?php //слайд-шоу карусель
+		require_once 'blocks/carousel.php';
+	?>	
 <!-- BEGIN: PAGE CONTENT -->
 	<?php //блок с контентом и кнопками вида (нужно потрошить)
 		require_once 'blocks/content_box.php';
@@ -48,9 +50,7 @@
 	<?php // просто форма с кнопкой
 		//require_once 'blocks/bar.php';
 	?>
-	<?php //слайд-шоу карусель
-		require_once 'blocks/carousel.php';
-	?>
+	
 <!-- END: PAGE CONTENT -->
 </div>
 <!-- END: PAGE CONTAINER -->
